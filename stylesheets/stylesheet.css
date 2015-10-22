@@ -105,10 +105,17 @@ header h2 {
 a.button {
   display: block;
   float: left;
+<<<<<<< HEAD
   width: 165px;
   padding: 12px 8px 12px 8px;
   margin-right: 14px;
   font-size: 14px;
+=======
+  width: 179px;
+  padding: 12px 8px 12px 8px;
+  margin-right: 14px;
+  font-size: 15px;
+>>>>>>> c5c51a5ec0b953c151179db0e40b62daf732c3c9
   font-weight: bold;
   line-height: 25px;
   color: #303030;
