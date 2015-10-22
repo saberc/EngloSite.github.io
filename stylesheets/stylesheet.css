@@ -105,10 +105,10 @@ header h2 {
 a.button {
   display: block;
   float: left;
-  width: 155px;
+  width: 179px;
   padding: 12px 8px 12px 8px;
   margin-right: 14px;
-  font-size: 12px;
+  font-size: 15px;
   font-weight: bold;
   line-height: 25px;
   color: #303030;
@@ -311,7 +311,6 @@ dl dt {
 }
 
 footer {
-  text-align: center;
   padding-top: 20px;
   padding-bottom: 30px;
   margin-top: 40px;
