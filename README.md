@@ -1,2 +1,2 @@
-# EngloSite.github.io
-Englo - Projects Software Management and Delivery System
+# Englo Project
+Englo - Software Projects Management and Delivery System
