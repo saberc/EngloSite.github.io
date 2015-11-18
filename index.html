@@ -108,9 +108,15 @@ If you are using Jetty, enter in the <code>englo-portal</code> folder and run: <
 
 <p>Entando integrates Trello, a collaboration tool that organizes your projects into boards. 
 In one glance, Trello help you to control what's being worked on, who's working on what, and where something is in a process.
-This web application is developed by using Struts2 that can be used for back-end (structure of Interceptor Stacks, namespaces, actions) and JSON as the Result of the Action Manager. </p>
+This web application is developed by using Struts2 that is used for back-end (structure of Interceptor Stacks, namespaces, actions), AngularJS used for front-end frameworks.</p>
 
 <p><strong>Example: HttpRequest of Boards List</strong></p>
+
+<ol>
+<li>The Client performs HTTPRequest to get of the List of Boards</li>
+<li>The Action "jsonboard" is triggered and invokes the Manager to obtains the List</li>
+<li>The Manager returns a JSON output to the Action which, in turn, returns to the List to the Client</li>
+</ol>
 
 <p>The Result of the Request is a JSON. The <em>Result Type</em> is <em>Stream Result</em> with the following parameters:</p>
 
@@ -118,7 +124,7 @@ This web application is developed by using Struts2 that can be used for back-end
 <li>
 <code>contentType</code> is <em>JSON</em> application;</li>
 <li>
-<code>contentDisposition</code> is <em>inline</em> for the file name _boards.json;</li>
+<code>contentDisposition</code> is <em>inline</em> for the file name <em>boards.json</em>;</li>
 <li>
 <code>bufferSize</code>` is the size of the buffer to copy from input to output (default = 1024).</li>
 </ul>
